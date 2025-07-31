@@ -1,0 +1,53 @@
+.box {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(to right ,orange,red);
+    margin: 10px;
+}
+.boxA {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(to left ,yellow,red);
+    margin: 10px;
+
+}
+.boxB {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(to top ,green,red);
+    margin: 10px;
+
+}
+.boxC {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(to bottom right ,blue,red);
+    margin: 10px;
+}
+.boxD{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-image:radial-gradient(circle, yellow,red,orange);
+    margin: 10px;
+}
+.boxE{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    background-image:conic-gradient( green,red,orange);
+    margin: 10px;
+}
+
+h1{
+    text-shadow: 3px 3px 5px red;
+}
+.box5{
+    border: 2px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
